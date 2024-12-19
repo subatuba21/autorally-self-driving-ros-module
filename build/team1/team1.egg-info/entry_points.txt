@@ -1,0 +1,6 @@
+[console_scripts]
+ackermann_publisher = team1.ackermann_publisher:main
+automatic_braking = team1.automatic_braking:main
+lidar_processing = team1.lidar_processing:main
+pure_pursuit_controller = team1.pure_pursuit_controller:main
+

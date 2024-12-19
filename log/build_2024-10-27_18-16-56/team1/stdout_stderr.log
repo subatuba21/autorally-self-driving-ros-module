@@ -1,0 +1,35 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+writing build/team1/team1.egg-info/PKG-INFO
+writing dependency_links to build/team1/team1.egg-info/dependency_links.txt
+writing entry points to build/team1/team1.egg-info/entry_points.txt
+writing requirements to build/team1/team1.egg-info/requires.txt
+writing top-level names to build/team1/team1.egg-info/top_level.txt
+reading manifest file 'build/team1/team1.egg-info/SOURCES.txt'
+writing manifest file 'build/team1/team1.egg-info/SOURCES.txt'
+running build
+running build_py
+copying team1/ackermann_publisher.py -> /home/nvidia/colcon_ws/src/team1/build/team1/build/lib/team1
+copying team1/lidar_processing.py -> /home/nvidia/colcon_ws/src/team1/build/team1/build/lib/team1
+copying team1/automatic_braking.py -> /home/nvidia/colcon_ws/src/team1/build/team1/build/lib/team1
+running install
+running install_lib
+copying /home/nvidia/colcon_ws/src/team1/build/team1/build/lib/team1/ackermann_publisher.py -> /home/nvidia/colcon_ws/src/team1/install/team1/lib/python3.10/site-packages/team1
+copying /home/nvidia/colcon_ws/src/team1/build/team1/build/lib/team1/lidar_processing.py -> /home/nvidia/colcon_ws/src/team1/install/team1/lib/python3.10/site-packages/team1
+copying /home/nvidia/colcon_ws/src/team1/build/team1/build/lib/team1/automatic_braking.py -> /home/nvidia/colcon_ws/src/team1/install/team1/lib/python3.10/site-packages/team1
+byte-compiling /home/nvidia/colcon_ws/src/team1/install/team1/lib/python3.10/site-packages/team1/ackermann_publisher.py to ackermann_publisher.cpython-310.pyc
+byte-compiling /home/nvidia/colcon_ws/src/team1/install/team1/lib/python3.10/site-packages/team1/lidar_processing.py to lidar_processing.cpython-310.pyc
+byte-compiling /home/nvidia/colcon_ws/src/team1/install/team1/lib/python3.10/site-packages/team1/automatic_braking.py to automatic_braking.cpython-310.pyc
+running install_data
+copying launch/team1.launch.py -> /home/nvidia/colcon_ws/src/team1/install/team1/share/team1/launch
+copying launch/team1_n.launch.py -> /home/nvidia/colcon_ws/src/team1/install/team1/share/team1/launch
+running install_egg_info
+removing '/home/nvidia/colcon_ws/src/team1/install/team1/lib/python3.10/site-packages/team1-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/team1/team1.egg-info to /home/nvidia/colcon_ws/src/team1/install/team1/lib/python3.10/site-packages/team1-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ackermann_publisher script to /home/nvidia/colcon_ws/src/team1/install/team1/lib/team1
+Installing automatic_braking script to /home/nvidia/colcon_ws/src/team1/install/team1/lib/team1
+Installing lidar_processing script to /home/nvidia/colcon_ws/src/team1/install/team1/lib/team1
+Installing pure_pursuit_controller script to /home/nvidia/colcon_ws/src/team1/install/team1/lib/team1
+writing list of installed files to '/home/nvidia/colcon_ws/src/team1/build/team1/install.log'

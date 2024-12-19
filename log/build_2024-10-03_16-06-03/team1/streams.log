@@ -1,0 +1,57 @@
+[1.554s] Invoking command in '/home/nvidia/colcon_ws/src/team1': PYTHONPATH=/home/nvidia/colcon_ws/src/team1/build/team1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/colcon_ws/src/team1/install/team1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/team1 build --build-base /home/nvidia/colcon_ws/src/team1/build/team1/build install --record /home/nvidia/colcon_ws/src/team1/build/team1/install.log --install-scripts $base/lib/team1 --single-version-externally-managed install_data
+[2.119s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.119s]   warnings.warn(
+[2.136s] running egg_info
+[2.138s] creating build/team1/team1.egg-info
+[2.138s] writing build/team1/team1.egg-info/PKG-INFO
+[2.138s] writing dependency_links to build/team1/team1.egg-info/dependency_links.txt
+[2.139s] writing entry points to build/team1/team1.egg-info/entry_points.txt
+[2.139s] writing requirements to build/team1/team1.egg-info/requires.txt
+[2.139s] writing top-level names to build/team1/team1.egg-info/top_level.txt
+[2.140s] writing manifest file 'build/team1/team1.egg-info/SOURCES.txt'
+[2.143s] reading manifest file 'build/team1/team1.egg-info/SOURCES.txt'
+[2.144s] writing manifest file 'build/team1/team1.egg-info/SOURCES.txt'
+[2.144s] running build
+[2.145s] running build_py
+[2.145s] creating /home/nvidia/colcon_ws/src/team1/build/team1/build
+[2.145s] creating /home/nvidia/colcon_ws/src/team1/build/team1/build/lib
+[2.145s] creating /home/nvidia/colcon_ws/src/team1/build/team1/build/lib/team1
+[2.145s] copying team1/ackermann_publisher.py -> /home/nvidia/colcon_ws/src/team1/build/team1/build/lib/team1
+[2.145s] copying team1/reactive_controller.py -> /home/nvidia/colcon_ws/src/team1/build/team1/build/lib/team1
+[2.146s] copying team1/lidar_processing.py -> /home/nvidia/colcon_ws/src/team1/build/team1/build/lib/team1
+[2.146s] copying team1/__init__.py -> /home/nvidia/colcon_ws/src/team1/build/team1/build/lib/team1
+[2.146s] copying team1/pure_pursuit_controller.py -> /home/nvidia/colcon_ws/src/team1/build/team1/build/lib/team1
+[2.147s] copying team1/automatic_braking.py -> /home/nvidia/colcon_ws/src/team1/build/team1/build/lib/team1
+[2.147s] running install
+[2.148s] running install_lib
+[2.149s] creating /home/nvidia/colcon_ws/src/team1/install/team1/lib/python3.10/site-packages/team1
+[2.149s] copying /home/nvidia/colcon_ws/src/team1/build/team1/build/lib/team1/ackermann_publisher.py -> /home/nvidia/colcon_ws/src/team1/install/team1/lib/python3.10/site-packages/team1
+[2.149s] copying /home/nvidia/colcon_ws/src/team1/build/team1/build/lib/team1/reactive_controller.py -> /home/nvidia/colcon_ws/src/team1/install/team1/lib/python3.10/site-packages/team1
+[2.150s] copying /home/nvidia/colcon_ws/src/team1/build/team1/build/lib/team1/lidar_processing.py -> /home/nvidia/colcon_ws/src/team1/install/team1/lib/python3.10/site-packages/team1
+[2.150s] copying /home/nvidia/colcon_ws/src/team1/build/team1/build/lib/team1/__init__.py -> /home/nvidia/colcon_ws/src/team1/install/team1/lib/python3.10/site-packages/team1
+[2.150s] copying /home/nvidia/colcon_ws/src/team1/build/team1/build/lib/team1/pure_pursuit_controller.py -> /home/nvidia/colcon_ws/src/team1/install/team1/lib/python3.10/site-packages/team1
+[2.151s] copying /home/nvidia/colcon_ws/src/team1/build/team1/build/lib/team1/automatic_braking.py -> /home/nvidia/colcon_ws/src/team1/install/team1/lib/python3.10/site-packages/team1
+[2.152s] byte-compiling /home/nvidia/colcon_ws/src/team1/install/team1/lib/python3.10/site-packages/team1/ackermann_publisher.py to ackermann_publisher.cpython-310.pyc
+[2.155s] byte-compiling /home/nvidia/colcon_ws/src/team1/install/team1/lib/python3.10/site-packages/team1/reactive_controller.py to reactive_controller.cpython-310.pyc
+[2.156s] byte-compiling /home/nvidia/colcon_ws/src/team1/install/team1/lib/python3.10/site-packages/team1/lidar_processing.py to lidar_processing.cpython-310.pyc
+[2.159s] byte-compiling /home/nvidia/colcon_ws/src/team1/install/team1/lib/python3.10/site-packages/team1/__init__.py to __init__.cpython-310.pyc
+[2.159s] byte-compiling /home/nvidia/colcon_ws/src/team1/install/team1/lib/python3.10/site-packages/team1/pure_pursuit_controller.py to pure_pursuit_controller.cpython-310.pyc
+[2.160s] byte-compiling /home/nvidia/colcon_ws/src/team1/install/team1/lib/python3.10/site-packages/team1/automatic_braking.py to automatic_braking.cpython-310.pyc
+[2.161s] running install_data
+[2.161s] creating /home/nvidia/colcon_ws/src/team1/install/team1/share/ament_index
+[2.161s] creating /home/nvidia/colcon_ws/src/team1/install/team1/share/ament_index/resource_index
+[2.161s] creating /home/nvidia/colcon_ws/src/team1/install/team1/share/ament_index/resource_index/packages
+[2.161s] copying resource/team1 -> /home/nvidia/colcon_ws/src/team1/install/team1/share/ament_index/resource_index/packages
+[2.162s] copying package.xml -> /home/nvidia/colcon_ws/src/team1/install/team1/share/team1
+[2.162s] creating /home/nvidia/colcon_ws/src/team1/install/team1/share/team1/launch
+[2.162s] copying launch/team1.launch.py -> /home/nvidia/colcon_ws/src/team1/install/team1/share/team1/launch
+[2.162s] copying launch/team1_n.launch.py -> /home/nvidia/colcon_ws/src/team1/install/team1/share/team1/launch
+[2.163s] running install_egg_info
+[2.167s] Copying build/team1/team1.egg-info to /home/nvidia/colcon_ws/src/team1/install/team1/lib/python3.10/site-packages/team1-0.0.0-py3.10.egg-info
+[2.169s] running install_scripts
+[2.217s] Installing ackermann_publisher script to /home/nvidia/colcon_ws/src/team1/install/team1/lib/team1
+[2.218s] Installing automatic_braking script to /home/nvidia/colcon_ws/src/team1/install/team1/lib/team1
+[2.218s] Installing lidar_processing script to /home/nvidia/colcon_ws/src/team1/install/team1/lib/team1
+[2.218s] Installing pure_pursuit_controller script to /home/nvidia/colcon_ws/src/team1/install/team1/lib/team1
+[2.219s] writing list of installed files to '/home/nvidia/colcon_ws/src/team1/build/team1/install.log'
+[2.285s] Invoked command in '/home/nvidia/colcon_ws/src/team1' returned '0': PYTHONPATH=/home/nvidia/colcon_ws/src/team1/build/team1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/colcon_ws/src/team1/install/team1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/team1 build --build-base /home/nvidia/colcon_ws/src/team1/build/team1/build install --record /home/nvidia/colcon_ws/src/team1/build/team1/install.log --install-scripts $base/lib/team1 --single-version-externally-managed install_data
